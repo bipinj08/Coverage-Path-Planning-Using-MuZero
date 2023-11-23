@@ -1,6 +1,4 @@
 
-py## Table of contents
-=======
 ## Table of contents
 >>>>>>> b5d3836 (Initial Upload)
 
