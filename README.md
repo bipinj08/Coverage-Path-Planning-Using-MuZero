@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 py## Table of contents
 =======
 ## Table of contents
@@ -42,10 +42,6 @@ python main.py --cpp --gpu --config config/manhattan32_cpp.json --id manhattan32
 Evaluate a model through Monte Carlo analysis over the random parameter space for the performance indicators 'Successful Landing', 'Collection Ratio', 'Collection Ratio and Landed' as defined in the paper (plus 'Boundary Counter' counting safety controller activations), e.g. for 1000 Monte Carlo iterations:
 
 ```
-<<<<<<< HEAD
-
-
-=======
 python main_mc.py --cpp --weights example/models/manhattan32_cpp --config config/manhattan32_cpp.json --id manhattan32_cpp_mc --samples 1000
 >>>>>>> b5d3836 (Initial Upload)
 
@@ -58,7 +54,7 @@ python main_mc.py --cpp --weights example/models/manhattan32_cpp --config config
 --show                      Pass '--show True' for individual plots of scenarios and allow plot saving
 ```
 
-For an example run of pretrained agents the following commands can be used:
+For an example run of pre-trained agents the following commands can be used:
 ```
 python main_scenario.py --cpp --config config/manhattan32_cpp.json --weights example/models/manhattan32_cpp --scenario example/scenarios/manhattan_cpp.json --video
 python main_scenario.py --cpp --config config/urban50_cpp.json --weights example/models/urban50_cpp --scenario example/scenarios/urban_cpp.json --video
@@ -93,24 +89,6 @@ If using this code for research purposes, please cite:
   year={2021},
   organization={IEEE}
 }
-```
-
-for the (multi-agent) Data Harvesting paper:
-
-[2] H. Bayerlein, M. Theile, M. Caccamo, and D. Gesbert, “Multi-UAV path planning for wireless data harvesting with deep reinforcement learning," IEEE Open Journal of the Communications Society, vol. 2, pp. 1171-1187, 2021.
-
-```
-@article{bayerlein2021multi,
-  title={Multi-uav path planning for wireless data harvesting with deep reinforcement learning},
-  author={Bayerlein, Harald and Theile, Mirco and Caccamo, Marco and Gesbert, David},
-  journal={IEEE Open Journal of the Communications Society},
-  volume={2},
-  pages={1171--1187},
-  year={2021},
-  publisher={IEEE}
-}
-```
-
 
 
 ## License 
