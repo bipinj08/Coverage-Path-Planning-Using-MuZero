@@ -48,13 +48,8 @@ class Node:
         policy, value = network_model.prediction_function(self.hidden_state)
         self.policy = policy
         self.value = value.numpy()[0][0]  # convert to scalar
-
-        #print(self.policy, self.value, 'is policy and value inside expand node')
-
-
         for action in range(self.action_length):
             self.children.append(Node(self.policy.numpy()[0][action]))
-        #print(len(self.children), ' is length of children where node value is passed based on policy prob') #which is 5
         self.is_expanded = True
 
     def get_ucb_score(self, visit_sum, min_q_value, max_q_value, config):
