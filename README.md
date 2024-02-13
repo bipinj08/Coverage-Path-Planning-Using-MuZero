@@ -11,7 +11,7 @@
 
 ## Introduction
 
-This repository contains an implementation of the MuZero approach to control a UAV on coverage path planning including global-local map processing. The corresponding paper where DDQN has been implemented ["UAV Path Planning using Global and Local Map Information with Deep Reinforcement Learning"](https://ieeexplore.ieee.org/abstract/document/9659413) is available on IEEEXplore. Basically custom environment from the paper is used and the MuZero algorithm is trained on it. The results obtained from MuZero are not as good as DDQN(implemented in the original paper). This implementation is only to check the performance of the MuZero on a given environment from the original paper from the above-mentioned link.
+This repository contains an implementation of the MuZero approach to control a UAV on coverage path planning including global-local map processing. The corresponding paper where DDQN has been implemented ["UAV Path Planning using Global and Local Map Information with Deep Reinforcement Learning"](https://ieeexplore.ieee.org/abstract/document/9659413) is available on IEEEXplore. A custom environment from the paper is used and the MuZero algorithm is trained on it. The results obtained from MuZero are not as good as DDQN(implemented in the original paper). This implementation is only to check the performance of the MuZero on a given environment from the original paper from the above-mentioned link. The original paper of this project can be found here. ([Link to the paper](https://github.com/bipinj08/Papers.git))
 
 The repository also consists of data harvesting files but the Muzero algorithm has not been implemented for data harvesting.
 
